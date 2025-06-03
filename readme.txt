@@ -1,5 +1,8 @@
 # CRAFTPANEL – Minecraft Server Management System
 
+LINK to the gdrive: https://drive.google.com/drive/folders/1Wsu0xy10DfJJZjHTW923iQzGh48lTmr8?usp=sharing
+
+
 CRAFTPANEL is a full-stack Laravel + Vue 3 web app that simulates a Minecraft-inspired server management system.  
 It includes role-based dashboards for Players, World Owners, and Admins.
 
