@@ -36,18 +36,26 @@ It includes role-based dashboards for Players, World Owners, and Admins.
 
 ### 1. Download the project
 
-check the gdrive and download the zip file and extract it in a folder. go to that directory.
+check the gdrive and download the zip file and extract it into a working folder: e.g., C:\xampp\htdocs\
+Open XAMPP and start Apache and MySQL.
+go to http://localhost/phpmyadmin in a browser.
+Create a new database named mcserverdb.
+Import the provided .sql file (from your Google Drive folder):(in the foler called DATABASE_FILE)
+Click the Import tab and upload your .sql file.
+
 2. Install PHP dependencies
+Go to the Project Directory (cd path-to-project-folder)
 composer install
 
 3. Install Node.js dependencies
 npm install
 4. Environment setup
 cp .env.example .env
+-Then open .env and set the database credentials:
 DB_DATABASE=mcserverdb
 DB_USERNAME=root
-DB_PASSWORD=
-Generate app key:
+DB_PASSWORD=    # leave blank if no MySQL password is set in XAMPP
+-Generate app key:
 php artisan key:generate
 5. Migrate the database
 php artisan migrate
