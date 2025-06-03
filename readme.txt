@@ -34,11 +34,9 @@ It includes role-based dashboards for Players, World Owners, and Admins.
 
 ## 🛠 Installation & Setup
 
-### 1. Clone the project
+### 1. Download the project
 
-```bash
-git clone https://github.com/your-username/craftpanel.git
-cd craftpanel
+check the gdrive and download the zip file and extract it in a folder. go to that directory.
 2. Install PHP dependencies
 composer install
 
